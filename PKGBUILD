@@ -16,7 +16,7 @@ makedepends=('python-mako' 'libxml2' 'libx11' 'xorgproto' 'libdrm' 'libxshmfence
 url="https://www.mesa3d.org/"
 license=('custom')
 options=('debug')
-source=("${pkgname}::git+https://github.com/theVakhovskeIsTaken/mesa-${pkgver}"
+source=("git+https://github.com/theVakhovskeIsTaken/mesa-${pkgver}"
         LICENSE)
 sha512sums=('447e87359445edce231761d94b316b2aa20e9ab58e4b59d75cbb1696dd0900e7164c32bebc3b75700b4070570b456f7a8cf0914181371754a52427d34e4b9120'
             'SKIP'
